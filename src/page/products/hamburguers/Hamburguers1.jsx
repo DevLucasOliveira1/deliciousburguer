@@ -18,7 +18,7 @@ function Hamburguers1(props) {
     const product = {
         name:'BigBurguer',
         price: 20.00,
-        image: 'hamburguer1.png',
+        image: 'hamburguer1.webp',
         quantity,
         observation,
     }
@@ -50,7 +50,7 @@ function Hamburguers1(props) {
 
                 <div style={{textAlign: 'center'}} className='w50'>
 
-                    <img className='center-y' src='/imagens/home/shop/hamburguer1.png'/>
+                    <img className='center-y' src='/imagens/home/shop/hamburguer1.webp'/>
 
                 </div>
 

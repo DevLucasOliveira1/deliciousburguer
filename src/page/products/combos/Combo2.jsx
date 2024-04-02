@@ -18,7 +18,7 @@ function Combo2(props) {
     const product = {
         name: 'Burguer Duplo +  Mega Fritas',
         price: 20.00,
-        image: 'combo2.png',
+        image: 'combo2.webp',
         quantity,
         observation
     }
@@ -50,7 +50,7 @@ function Combo2(props) {
 
                 <div style={{textAlign: 'center'}} className='w50'>
                     
-                    <img className='center-y' src='/imagens/home/shop/combo2.png'/>
+                    <img className='center-y' src='/imagens/home/shop/combo2.webp'/>
 
                 </div>
 

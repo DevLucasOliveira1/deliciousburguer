@@ -18,7 +18,7 @@ function Bebidas2(props) {
     const product = {
         name:'Pepsi Lata - 350ml',
         price: 6.00,
-        image: 'bebida2.png',
+        image: 'bebida2.webp',
         quantity,
         observation
     }
@@ -50,7 +50,7 @@ function Bebidas2(props) {
 
                 <div style={{textAlign: 'center'}} className='w50'>
 
-                    <img className='center-y' src='/imagens/home/shop/bebida2.png'/>
+                    <img className='center-y' src='/imagens/home/shop/bebida2.webp'/>
 
                 </div>
 

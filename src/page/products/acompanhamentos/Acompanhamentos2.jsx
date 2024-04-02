@@ -18,7 +18,7 @@ function Acompanhamentos2(props) {
     const product = {
         name:'Porção Grande de Salada',
         price: 10.00,
-        image: 'acompanhamentos2.png',
+        image: 'acompanhamentos2.webp',
         quantity,
         observation
     }
@@ -50,7 +50,7 @@ function Acompanhamentos2(props) {
 
                 <div style={{textAlign: 'center'}} className='w50'>
 
-                    <img className='center-y' src='/imagens/home/shop/acompanhamentos2.png'/>
+                    <img className='center-y' src='/imagens/home/shop/acompanhamentos2.webp'/>
 
                 </div>
 

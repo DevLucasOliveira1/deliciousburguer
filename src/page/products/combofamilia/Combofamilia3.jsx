@@ -18,7 +18,7 @@ function Combofamilia3(props) {
     const product = {
         name:'Duplo Burguer',
         price: 20.00,
-        image: 'combofamilia3.png',
+        image: 'combofamilia3.webp',
         quantity,
         observation
     }
@@ -50,7 +50,7 @@ function Combofamilia3(props) {
 
                 <div style={{textAlign: 'center'}} className='w50'>
 
-                    <img className='center-y' src='/imagens/home/shop/combofamilia3.png'/>
+                    <img className='center-y' src='/imagens/home/shop/combofamilia3.webp'/>
 
                 </div>
 

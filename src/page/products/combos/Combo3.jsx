@@ -18,7 +18,7 @@ function Combo3(props) {
     const product = {
         name: 'Bacon Plus + Fritas P + Refrigerante',
         price: 20.00,
-        image: 'combo3.png',
+        image: 'combo3.webp',
         quantity,
         observation
     }
@@ -51,7 +51,7 @@ function Combo3(props) {
 
                 <div style={{textAlign: 'center'}} className='w50'>
 
-                    <img className='center-y' src='/imagens/home/shop/combo3.png'/>
+                    <img className='center-y' src='/imagens/home/shop/combo3.webp'/>
 
                 </div>
 

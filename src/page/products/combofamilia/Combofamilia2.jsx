@@ -18,7 +18,7 @@ function Combofamilia2(props) {
     const product = {
         name:'Duplo Bacon + 2 Refrigerantes',
         price: 20.00,
-        image: 'combofamilia2.png',
+        image: 'combofamilia2.webp',
         quantity,
         observation
     }
@@ -50,7 +50,7 @@ function Combofamilia2(props) {
 
                 <div style={{textAlign: 'center'}} className='w50'>
 
-                    <img className='center-y' src='/imagens/home/shop/combofamilia2.png'/>
+                    <img className='center-y' src='/imagens/home/shop/combofamilia2.webp'/>
 
                 </div>
 

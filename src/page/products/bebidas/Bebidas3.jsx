@@ -18,7 +18,7 @@ function Bebidas3(props) {
     const product = {
         name:'Guaraná Antarctica Lata - 350ml',
         price: 6.00,
-        image: 'bebida3.png',
+        image: 'bebida3.webp',
         quantity,
         observation
     }
@@ -50,7 +50,7 @@ function Bebidas3(props) {
 
                 <div style={{textAlign: 'center'}} className='w50'>
 
-                    <img className='center-y' src='/imagens/home/shop/bebida3.png'/>
+                    <img className='center-y' src='/imagens/home/shop/bebida3.webp'/>
 
                 </div>
 

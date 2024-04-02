@@ -157,7 +157,7 @@ function Home() {
 
           <img src='/imagens/home/bg/bg1.webp'/>
           <img src='/imagens/home/bg/bg2.webp'/>
-          <img src='/imagens/home/bg/bg3.png'/>
+          <img src='/imagens/home/bg/bg3.webp'/>
 
         </Slider>
 
@@ -165,7 +165,7 @@ function Home() {
 
           <img src='/imagens/home/bg/bg1-tablet.webp'/>
           <img src='/imagens/home/bg/bg2-tablet.webp'/>
-          <img src='/imagens/home/bg/bg3-tablet.png'/>
+          <img src='/imagens/home/bg/bg3-tablet.webp'/>
 
         </Slider>
 
@@ -173,7 +173,7 @@ function Home() {
 
           <img src='/imagens/home/bg/bg1-phone.webp'/>
           <img src='/imagens/home/bg/bg2-phone.webp'/>
-          <img src='/imagens/home/bg/bg3-phone.png'/>
+          <img src='/imagens/home/bg/bg3-phone.webp'/>
 
         </Slider>
 
@@ -284,7 +284,7 @@ function Home() {
           <div className='shop-single-type'>Popular</div>
 
           <div className='shop-single-img'>
-            <img className='centery' src='/imagens/home/shop/combo1.png'/>
+            <img className='centery' src='/imagens/home/shop/combo1.webp'/>
           </div>
 
           <div className='shop-single-content'>
@@ -307,7 +307,7 @@ function Home() {
         <div className='shop-single w33' data-aos="zoom-in-up" data-aos-offset="250" onClick={() => OpenCombo2(0)}>
 
           <div className='shop-single-img'>
-            <img className='centery' src='/imagens/home/shop/combo2.png'/>
+            <img className='centery' src='/imagens/home/shop/combo2.webp'/>
           </div>
 
           <div className='shop-single-content'>
@@ -330,7 +330,7 @@ function Home() {
         <div className='shop-single w33' data-aos="zoom-in-up" data-aos-offset="250" onClick={() => OpenCombo3(0)}>
 
           <div className='shop-single-img'>
-            <img className='centery' src='/imagens/home/shop/combo3.png'/>
+            <img className='centery' src='/imagens/home/shop/combo3.webp'/>
           </div>
 
           <div className='shop-single-content'>
@@ -379,7 +379,7 @@ function Home() {
           <div className='shop-single-type'>Especial</div>
 
           <div className='shop-single-img'>
-            <img className='centery' src='/imagens/home/shop/combofamilia1.png'/>
+            <img className='centery' src='/imagens/home/shop/combofamilia1.webp'/>
           </div>
 
           <div className='shop-single-content'>
@@ -402,7 +402,7 @@ function Home() {
         <div className='shop-single w33' data-aos="zoom-in-up" data-aos-offset="250" onClick={()=> OpenComboFamilia2(0)}>
 
           <div className='shop-single-img'>
-            <img className='centery' src='/imagens/home/shop/combofamilia2.png'/>
+            <img className='centery' src='/imagens/home/shop/combofamilia2.webp'/>
           </div>
 
           <div className='shop-single-content'>
@@ -425,7 +425,7 @@ function Home() {
         <div className='shop-single w33' data-aos="zoom-in-up" data-aos-offset="250" onClick={()=> OpenComboFamilia3(0)}>
 
           <div className='shop-single-img'>
-            <img className='centery' src='/imagens/home/shop/combofamilia3.png'/>
+            <img className='centery' src='/imagens/home/shop/combofamilia3.webp'/>
           </div>
 
           <div className='shop-single-content'>
@@ -472,7 +472,7 @@ function Home() {
         <div className='shop-single w33' data-aos="zoom-in-up" data-aos-offset="250" onClick={()=> OpenHamburguers1(0)}>
 
           <div className='shop-single-img'>
-            <img className='centery' src='/imagens/home/shop/hamburguer1.png'/>
+            <img className='centery' src='/imagens/home/shop/hamburguer1.webp'/>
           </div>
 
           <div className='shop-single-content'>
@@ -495,7 +495,7 @@ function Home() {
         <div className='shop-single w33' data-aos="zoom-in-up" data-aos-offset="250" onClick={()=> OpenHamburguers2(0)}>
 
           <div className='shop-single-img'>
-            <img className='centery' src='/imagens/home/shop/hamburguer2.png'/>
+            <img className='centery' src='/imagens/home/shop/hamburguer2.webp'/>
           </div>
 
           <div className='shop-single-content'>
@@ -520,7 +520,7 @@ function Home() {
           <div className='shop-single-type'>Sensação</div>
 
           <div className='shop-single-img'>
-            <img className='centery' src='/imagens/home/shop/hamburguer3.png'/>
+            <img className='centery' src='/imagens/home/shop/hamburguer3.webp'/>
           </div>
 
           <div className='shop-single-content'>
@@ -569,7 +569,7 @@ function Home() {
         <div className='shop-single-type'>Popular</div>
 
           <div className='shop-single-img'>
-            <img className='centery' src='/imagens/home/shop/acompanhamentos1.png'/>
+            <img className='centery' src='/imagens/home/shop/acompanhamentos1.webp'/>
           </div>
 
           <div className='shop-single-content'>
@@ -592,7 +592,7 @@ function Home() {
         <div className='shop-single w33' data-aos="zoom-in-up" data-aos-offset="250" onClick={()=> OpenAcompanhamentos2(0)}>
 
           <div className='shop-single-img'>
-            <img className='centery' src='/imagens/home/shop/acompanhamentos2.png'/>
+            <img className='centery' src='/imagens/home/shop/acompanhamentos2.webp'/>
           </div>
 
           <div className='shop-single-content'>
@@ -617,7 +617,7 @@ function Home() {
           <div className='shop-single-type'>Especial</div>
 
           <div className='shop-single-img'>
-            <img className='centery' src='/imagens/home/shop/acompanhamentos3.png'/>
+            <img className='centery' src='/imagens/home/shop/acompanhamentos3.webp'/>
           </div>
 
           <div className='shop-single-content'>
@@ -666,7 +666,7 @@ function Home() {
           <div className='shop-single-type'>Popular</div>
 
           <div className='shop-single-img'>
-            <img className='centery' src='/imagens/home/shop/bebida1.png'/>
+            <img className='centery' src='/imagens/home/shop/bebida1.webp'/>
           </div>
 
           <div className='shop-single-content'>
@@ -689,7 +689,7 @@ function Home() {
         <div className='shop-single w33' data-aos="zoom-in-up" data-aos-offset="250" onClick={()=> OpenBebidas2(0)}>
 
           <div className='shop-single-img'>
-            <img className='centery' src='/imagens/home/shop/bebida2.png'/>
+            <img className='centery' src='/imagens/home/shop/bebida2.webp'/>
           </div>
 
           <div className='shop-single-content'>
@@ -712,7 +712,7 @@ function Home() {
         <div className='shop-single w33' data-aos="zoom-in-up" data-aos-offset="250" onClick={()=> OpenBebidas3(0)}>
 
           <div className='shop-single-img'>
-            <img className='centery' src='/imagens/home/shop/bebida3.png'/>
+            <img className='centery' src='/imagens/home/shop/bebida3.webp'/>
           </div>
 
           <div className='shop-single-content'>

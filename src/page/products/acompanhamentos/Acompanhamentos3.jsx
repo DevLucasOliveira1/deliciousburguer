@@ -18,7 +18,7 @@ function Acompanhamentos3(props) {
     const product = {
         name:'Mega Fritas + Bacon',
         price: 10.00,
-        image: 'acompanhamentos3.png',
+        image: 'acompanhamentos3.webp',
         quantity,
         observation
     }
@@ -50,7 +50,7 @@ function Acompanhamentos3(props) {
 
                 <div style={{textAlign: 'center'}} className='w50'>
 
-                    <img className='center-y' src='/imagens/home/shop/acompanhamentos3.png'/>
+                    <img className='center-y' src='/imagens/home/shop/acompanhamentos3.webp'/>
 
                 </div>
 
