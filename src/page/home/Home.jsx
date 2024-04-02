@@ -45,7 +45,7 @@ function Home() {
     arrows: false,
     fade: true,
     infinite: true,
-    autoplay: false,
+    autoplay: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -111,7 +111,7 @@ function Home() {
       whatsappMessage += `${name.charAt(0).toUpperCase() + name.slice(1)}: ${filteredFormPayment[name]}\n`;
     }
 
-    const numberWhatsapp = '83988357734'
+    const numberWhatsapp = '5583988357734'
 
     const whatsUrl = `https://wa.me/${numberWhatsapp}?text=${encodeURIComponent(whatsappMessage)}`
 
