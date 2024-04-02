@@ -5,9 +5,7 @@ import './Initial.css'
 import { Link } from 'react-router-dom'
 
 function Initial() {
-  
-  AOS.init();
-  
+
   return (
     <>
     
