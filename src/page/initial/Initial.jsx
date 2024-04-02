@@ -20,7 +20,7 @@ function Initial() {
 
         <div className='container center-y'>
 
-          <img src='../../public/imagens/logo/logo.png'/>
+          <img src='/imagens/logo/logo.png'/>
 
           <ul>
 

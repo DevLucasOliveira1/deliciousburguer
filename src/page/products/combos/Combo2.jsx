@@ -50,7 +50,7 @@ function Combo2(props) {
 
                 <div style={{textAlign: 'center'}} className='w50'>
                     
-                    <img className='center-y' src='../../../public/imagens/home/shop/combo2.png'/>
+                    <img className='center-y' src='/imagens/home/shop/combo2.png'/>
 
                 </div>
 

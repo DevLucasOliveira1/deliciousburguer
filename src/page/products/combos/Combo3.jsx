@@ -51,7 +51,7 @@ function Combo3(props) {
 
                 <div style={{textAlign: 'center'}} className='w50'>
 
-                    <img className='center-y' src='../../../public/imagens/home/shop/combo3.png'/>
+                    <img className='center-y' src='/imagens/home/shop/combo3.png'/>
 
                 </div>
 

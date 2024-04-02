@@ -105,10 +105,10 @@ function Payment({ onPaymentSubmit, subtotal, taxaEntrega, deliveryActive}) {
         <div style={{textAlign:'center'}} className='form-cartao w100'>
             <h4>Aceitamos:</h4>
             <div>
-                <img src='../../../public/imagens/payment/cartao1.png'/>
-                <img src='../../../public/imagens/payment/cartao2.png'/>
-                <img src='../../../public/imagens/payment/cartao3.png'/>
-                <img src='../../../public/imagens/payment/cartao4.png'/>
+                <img src='/imagens/payment/cartao1.png'/>
+                <img src='/imagens/payment/cartao2.png'/>
+                <img src='/imagens/payment/cartao3.png'/>
+                <img src='/imagens/payment/cartao4.png'/>
             </div>
         </div>
 
