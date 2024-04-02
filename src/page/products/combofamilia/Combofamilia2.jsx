@@ -50,7 +50,7 @@ function Combofamilia2(props) {
 
                 <div style={{textAlign: 'center'}} className='w50'>
 
-                    <img className='center-y' src='../../../dist/imagens/home/shop/combofamilia2.png'/>
+                    <img className='center-y' src='../../../public/imagens/home/shop/combofamilia2.png'/>
 
                 </div>
 

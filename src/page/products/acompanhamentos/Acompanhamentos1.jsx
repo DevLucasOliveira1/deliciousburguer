@@ -50,7 +50,7 @@ function Acompanhamentos1(props) {
 
                 <div style={{textAlign: 'center'}} className='w50'>
 
-                    <img className='center-y' src='../../../dist/imagens/home/shop/acompanhamentos1.png'/>
+                    <img className='center-y' src='../../../public/imagens/home/shop/acompanhamentos1.png'/>
 
                 </div>
 

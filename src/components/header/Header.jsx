@@ -35,7 +35,7 @@ function Header() {
 
         <div className='w50'>
 
-          <img src='../../../dist/imagens/logo/logo.png'/>
+          <img src='../../../public/imagens/logo/logo.png'/>
 
         </div>
 

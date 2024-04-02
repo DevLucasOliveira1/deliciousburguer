@@ -50,7 +50,7 @@ function Cart({ onHandleItems, cartItems, setCartItems, subtotal, total }) {
 
             <div style={{textAlign: 'center', width: '35%'}} className='w50'>
 
-                <img className='center-y' src={`../../../dist/imagens/home/shop/${item.image}`}/>
+                <img className='center-y' src={`../../../public/imagens/home/shop/${item.image}`}/>
 
             </div>
 
