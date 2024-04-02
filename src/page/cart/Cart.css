@@ -146,12 +146,7 @@ section.cart .cart-box .cart-box-line{
     section.cart .cart-box{
         width: 90%;
     }
-
-    section.cart ::-webkit-scrollbar              { background-color: initial; border-radius: initial}
-    section.cart ::-webkit-scrollbar-button       { height: initial; }
-    section.cart ::-webkit-scrollbar-track        { background-color: initial  !important; }
-    section.cart ::-webkit-scrollbar-thumb        { background-color: initial !important;}
-
+    
 }
 
 @media screen and (max-width: 600px){
