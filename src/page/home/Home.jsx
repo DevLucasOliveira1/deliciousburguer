@@ -289,7 +289,7 @@ function Home() {
 
       <div className='container flex'>
 
-        <div className='shop-single w33' data-aos="zoom-in-up" data-aos-offset="1200" onClick={()=> OpenCombo1(0)}>
+        <div className='shop-single w33' data-aos="zoom-in-up" data-aos-offset="250" onClick={()=> OpenCombo1(0)}>
 
           <div className='shop-single-type'>Popular</div>
 
@@ -314,7 +314,7 @@ function Home() {
           
         </div>
 
-        <div className='shop-single w33' data-aos="zoom-in-up" data-aos-offset="1200" onClick={() => OpenCombo2(0)}>
+        <div className='shop-single w33' data-aos="zoom-in-up" data-aos-offset="250" onClick={() => OpenCombo2(0)}>
 
           <div className='shop-single-img'>
             <img className='centery' src='/imagens/home/shop/combo2.png'/>
@@ -337,7 +337,7 @@ function Home() {
 
         </div>
 
-        <div className='shop-single w33' data-aos="zoom-in-up" data-aos-offset="1200" onClick={() => OpenCombo3(0)}>
+        <div className='shop-single w33' data-aos="zoom-in-up" data-aos-offset="250" onClick={() => OpenCombo3(0)}>
 
           <div className='shop-single-img'>
             <img className='centery' src='/imagens/home/shop/combo3.png'/>
@@ -384,7 +384,7 @@ function Home() {
 
       <div className='container flex'>
 
-        <div className='shop-single w33' data-aos="zoom-in-up" data-aos-offset="1200" onClick={()=> OpenComboFamilia1(0)}>
+        <div className='shop-single w33' data-aos="zoom-in-up" data-aos-offset="250" onClick={()=> OpenComboFamilia1(0)}>
 
           <div className='shop-single-type'>Especial</div>
 
@@ -409,7 +409,7 @@ function Home() {
 
         </div>
 
-        <div className='shop-single w33' data-aos="zoom-in-up" data-aos-offset="1200" onClick={()=> OpenComboFamilia2(0)}>
+        <div className='shop-single w33' data-aos="zoom-in-up" data-aos-offset="250" onClick={()=> OpenComboFamilia2(0)}>
 
           <div className='shop-single-img'>
             <img className='centery' src='/imagens/home/shop/combofamilia2.png'/>
@@ -432,7 +432,7 @@ function Home() {
 
         </div>
 
-        <div className='shop-single w33' data-aos="zoom-in-up" data-aos-offset="1200" onClick={()=> OpenComboFamilia3(0)}>
+        <div className='shop-single w33' data-aos="zoom-in-up" data-aos-offset="250" onClick={()=> OpenComboFamilia3(0)}>
 
           <div className='shop-single-img'>
             <img className='centery' src='/imagens/home/shop/combofamilia3.png'/>
@@ -479,7 +479,7 @@ function Home() {
 
       <div className='container flex'>
 
-        <div className='shop-single w33' data-aos="zoom-in-up" data-aos-offset="1200" onClick={()=> OpenHamburguers1(0)}>
+        <div className='shop-single w33' data-aos="zoom-in-up" data-aos-offset="250" onClick={()=> OpenHamburguers1(0)}>
 
           <div className='shop-single-img'>
             <img className='centery' src='/imagens/home/shop/hamburguer1.png'/>
@@ -502,7 +502,7 @@ function Home() {
 
         </div>
 
-        <div className='shop-single w33' data-aos="zoom-in-up" data-aos-offset="1200" onClick={()=> OpenHamburguers2(0)}>
+        <div className='shop-single w33' data-aos="zoom-in-up" data-aos-offset="250" onClick={()=> OpenHamburguers2(0)}>
 
           <div className='shop-single-img'>
             <img className='centery' src='/imagens/home/shop/hamburguer2.png'/>
@@ -525,7 +525,7 @@ function Home() {
 
         </div>
 
-        <div className='shop-single w33' data-aos="zoom-in-up" data-aos-offset="1200" onClick={()=> OpenHamburguers3(0)}>
+        <div className='shop-single w33' data-aos="zoom-in-up" data-aos-offset="250" onClick={()=> OpenHamburguers3(0)}>
 
           <div className='shop-single-type'>Sensação</div>
 
@@ -574,7 +574,7 @@ function Home() {
 
       <div className='container flex'>
 
-        <div className='shop-single w33' data-aos="zoom-in-up" data-aos-offset="1200" onClick={()=> OpenAcompanhamentos1(0)}>
+        <div className='shop-single w33' data-aos="zoom-in-up" data-aos-offset="250" onClick={()=> OpenAcompanhamentos1(0)}>
 
         <div className='shop-single-type'>Popular</div>
 
@@ -599,7 +599,7 @@ function Home() {
 
         </div>
 
-        <div className='shop-single w33' data-aos="zoom-in-up" data-aos-offset="1200" onClick={()=> OpenAcompanhamentos2(0)}>
+        <div className='shop-single w33' data-aos="zoom-in-up" data-aos-offset="250" onClick={()=> OpenAcompanhamentos2(0)}>
 
           <div className='shop-single-img'>
             <img className='centery' src='/imagens/home/shop/acompanhamentos2.png'/>
@@ -622,7 +622,7 @@ function Home() {
 
         </div>
 
-        <div className='shop-single w33' data-aos="zoom-in-up" data-aos-offset="1200" onClick={()=> OpenAcompanhamentos3(0)}>
+        <div className='shop-single w33' data-aos="zoom-in-up" data-aos-offset="250" onClick={()=> OpenAcompanhamentos3(0)}>
 
           <div className='shop-single-type'>Especial</div>
 
@@ -671,7 +671,7 @@ function Home() {
 
       <div className='container flex'>
 
-        <div className='shop-single w33' data-aos="zoom-in-up" data-aos-offset="1200" onClick={()=> OpenBebidas1(0)}>
+        <div className='shop-single w33' data-aos="zoom-in-up" data-aos-offset="250" onClick={()=> OpenBebidas1(0)}>
 
           <div className='shop-single-type'>Popular</div>
 
@@ -696,7 +696,7 @@ function Home() {
 
         </div>
 
-        <div className='shop-single w33' data-aos="zoom-in-up" data-aos-offset="1200" onClick={()=> OpenBebidas2(0)}>
+        <div className='shop-single w33' data-aos="zoom-in-up" data-aos-offset="250" onClick={()=> OpenBebidas2(0)}>
 
           <div className='shop-single-img'>
             <img className='centery' src='/imagens/home/shop/bebida2.png'/>
@@ -719,7 +719,7 @@ function Home() {
 
         </div>
 
-        <div className='shop-single w33' data-aos="zoom-in-up" data-aos-offset="1200" onClick={()=> OpenBebidas3(0)}>
+        <div className='shop-single w33' data-aos="zoom-in-up" data-aos-offset="250" onClick={()=> OpenBebidas3(0)}>
 
           <div className='shop-single-img'>
             <img className='centery' src='/imagens/home/shop/bebida3.png'/>
