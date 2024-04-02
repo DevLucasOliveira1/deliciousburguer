@@ -2,6 +2,8 @@ import React from 'react'
 
 import './Header.css'
 
+import { Link } from 'react-router-dom'
+
 function Header() {
   
   const OpenCart = (index) => {
@@ -35,7 +37,9 @@ function Header() {
 
         <div className='w50'>
 
-          <img src='/imagens/logo/logo.png'/>
+          <Link to="/">
+            <img src='/imagens/logo/logo.png'/>
+          </Link>
 
         </div>
 
