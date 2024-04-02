@@ -137,6 +137,13 @@ section.cart .cart-box .cart-box-line{
     height: 2px;
 }
 
+/* CUSTOMIZANDO SCROLL */
+
+section.cart ::-webkit-scrollbar              { background-color: transparent; width: 5px;}
+section.cart ::-webkit-scrollbar-button       { height: 10px; }
+section.cart ::-webkit-scrollbar-track        { background-color: transparent;}
+section.cart ::-webkit-scrollbar-thumb        { border-radius: 20px;}
+
 /*================================================*/
 /*===================RESPONSIVO===================*/
 /*================================================*/

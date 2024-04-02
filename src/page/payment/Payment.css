@@ -110,6 +110,13 @@ section.payment .payment-box .payment-box-line{
     height: 2px;
 }
 
+/* CUSTOMIZANDO SCROLL */
+
+section.payment ::-webkit-scrollbar              { background-color: transparent; width: 5px;}
+section.payment ::-webkit-scrollbar-button       { height: 10px; }
+section.payment ::-webkit-scrollbar-track        { background-color: transparent;}
+section.payment ::-webkit-scrollbar-thumb        { border-radius: 20px;}
+
 /*================================================*/
 /*===================RESPONSIVO===================*/
 /*================================================*/

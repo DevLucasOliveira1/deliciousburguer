@@ -155,24 +155,24 @@ function Home() {
 
         <Slider className='bg-desktop' {...settings}>
 
-          <img src='/imagens/home/bg/bg1.png'/>
-          <img src='/imagens/home/bg/bg2.png'/>
+          <img src='/imagens/home/bg/bg1.webp'/>
+          <img src='/imagens/home/bg/bg2.webp'/>
           <img src='/imagens/home/bg/bg3.png'/>
 
         </Slider>
 
         <Slider className='bg-tablet' {...settings}>
 
-          <img src='/imagens/home/bg/bg1-tablet.png'/>
-          <img src='/imagens/home/bg/bg2-tablet.png'/>
+          <img src='/imagens/home/bg/bg1-tablet.webp'/>
+          <img src='/imagens/home/bg/bg2-tablet.webp'/>
           <img src='/imagens/home/bg/bg3-tablet.png'/>
 
         </Slider>
 
         <Slider className='bg-phone' {...settings}>
 
-          <img src='/imagens/home/bg/bg1-phone.png'/>
-          <img src='/imagens/home/bg/bg2-phone.png'/>
+          <img src='/imagens/home/bg/bg1-phone.webp'/>
+          <img src='/imagens/home/bg/bg2-phone.webp'/>
           <img src='/imagens/home/bg/bg3-phone.png'/>
 
         </Slider>
@@ -187,82 +187,72 @@ function Home() {
 
         <div className='list-sections-single'>
 
+          <Link to="#combosindividuais">
           <div className='center-y'>
 
-            <Link to="#combosindividuais">
-
-              <img src='/imagens/home/ancor/img1.png'/>
+              <img src='/imagens/home/ancor/img1.webp'/>
 
               <h4>Combos Individuais</h4>
 
-            </Link>
-
           </div>
+          </Link>
 
         </div>
 
         <div className='list-sections-single'>
 
+          <Link to="#combosfamilia">
           <div className='center-y'>
             
-            <Link to="#combosfamilia">
-
-              <img src='/imagens/home/ancor/img2.png'/>
+              <img src='/imagens/home/ancor/img2.webp'/>
 
               <h4>Combos Família</h4>
 
-            </Link>
-
           </div>
+          </Link>
 
         </div>
 
         <div className='list-sections-single'>
 
+          <Link to="#hamburguers">
           <div className='center-y'>
 
-            <Link to="#hamburguers">
-
-              <img src='/imagens/home/ancor/img3.png'/>
+              <img src='/imagens/home/ancor/img3.webp'/>
 
               <h4>Hambúrguers</h4>
 
-            </Link>
-
           </div>
+          </Link>
 
         </div>
 
         <div className='list-sections-single'>
 
+          <Link to="#acompanhamentos">
           <div className='center-y'>
 
-            <Link to="#acompanhamentos">
-
-              <img src='/imagens/home/ancor/img4.png'/>
+              <img src='/imagens/home/ancor/img4.webp'/>
 
               <h4>Acompanhamentos</h4>
 
-            </Link>
-
           </div>
+          </Link>
 
         </div>
 
         <div className='list-sections-single'>
 
+          <Link to="#bebidas">
           <div className='center-y'>
 
-            <Link to="#bebidas">
-
-              <img src='/imagens/home/ancor/img5.png'/>
+              <img src='/imagens/home/ancor/img5.webp'/>
               
               <h4>Bebidas</h4>
 
-            </Link>
-
           </div>
-
+          </Link>
+          
         </div>
 
       </div>
