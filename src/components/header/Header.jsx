@@ -38,7 +38,7 @@ function Header() {
         <div className='w50'>
 
           <Link to="/">
-            <img src='/imagens/logo/logo.png'/>
+            <img src='/imagens/logo/logo.webp'/>
           </Link>
 
         </div>

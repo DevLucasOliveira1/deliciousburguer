@@ -4,7 +4,7 @@ section.initial{
     position: absolute;
     left: 0;
     top: 0;
-    background-image: url('../../imagens/initial/bg.jpg');
+    background-image: url('../../imagens/initial/bg.webp');
     background-color: #212121;
     background-size: cover;
     background-position: center;

@@ -14,7 +14,7 @@ function Data({ onFormSubmit, subtotal, taxaEntrega, deliveryActive, setDelivery
 
     if(deliveryActive === false){
 
-        if(formData.nome === '' || formData.email === '' || formData.telefone === ''){
+        if(formData.nome === '' || formData.email === '' || formData.telefone === '' || formData.telefone.includes('_')){
 
             Message[index].classList.add('invalid-init');
 
@@ -31,7 +31,7 @@ function Data({ onFormSubmit, subtotal, taxaEntrega, deliveryActive, setDelivery
 
     } else if (deliveryActive === true){
 
-        if(formData.nome === '' || formData.email === '' || formData.telefone === '' || formData.rua === '' || formData.numero === '' || formData.bairro === '' || formData.cep === ''){
+        if(formData.nome === '' || formData.email === '' || formData.telefone === '' || formData.telefone.includes('_') || formData.rua === '' || formData.numero === '' || formData.bairro === '' || formData.cep === '' || formData.cep.includes('_')){
 
             Message[index].classList.add('invalid-init');
             
