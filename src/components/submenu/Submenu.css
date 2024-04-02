@@ -1,0 +1,28 @@
+section.submenu{
+    width: 100%;
+    z-index: 1;
+    position: fixed;
+    bottom: -68px;
+    background-color: #212121;
+    color: white;
+    transition: 0.3s;
+}
+
+section.submenu a{
+    color: white;
+    text-decoration: none;
+}
+
+section.submenu-up{
+    bottom: 0px !important;
+}
+
+section.submenu .w50{
+    cursor: pointer;
+    padding: 15px 0;
+    transition: 0.3s;
+}
+
+section.submenu .w50:hover{
+    color: #f0ab47;
+}

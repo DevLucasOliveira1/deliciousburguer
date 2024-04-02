@@ -1,0 +1,204 @@
+section.cart{
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(5px);
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transition: 0.3s;
+    opacity: 0;
+    display: none;
+}
+
+section.cart .cart-box{
+    width: 70%;
+    max-height: 800px;
+    overflow: auto;
+    padding: 30px 20px 30px 20px;
+    background-color: white;
+    border-radius: 20px;
+    flex-wrap: wrap;
+}
+
+section.cart ::-webkit-scrollbar              { background-color: #ccc; border-radius: 0 50px 50px 0}
+section.cart ::-webkit-scrollbar-button       { height: 8px !important; }
+section.cart ::-webkit-scrollbar-track        { background-color: #ccc  !important; }
+section.cart ::-webkit-scrollbar-thumb        { background-color: #131415 !important;}
+
+/* ESPAÇO PARA PRODUTOS */
+
+section.cart .cart-box .cart-box-wraper{
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+/* PRODUTOS */
+
+section.cart .cart-box .cart-box-single{
+    margin-bottom: 30px;
+}
+
+section.cart .cart-box .cart-box-single .w50:nth-child(1) img{
+    max-width: 70%;
+}
+
+section.cart .cart-box .cart-box-single .w50:nth-child(2){
+    padding-left: 20px;
+    width: 60% !important;
+}
+
+section.cart .cart-box .cart-box-single .quantity-shop{
+    color: #f0ab47;
+    font-size: 25px;
+}
+
+section.cart .cart-box .cart-box-single .name-shop{
+    margin-top: 0px;
+    color: #212121;
+}
+
+section.cart .cart-box .cart-box-single .value-shop{
+    color: #f0ab47;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+section.cart .cart-box .cart-box-single .text-shop{
+    position: relative;
+    top: -5px;
+}
+
+section.cart .cart-box .cart-box-single h6{
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+/* CARRINHO VAZIO */
+
+section.cart .cart-box .cart-box-single-none{
+    text-align: center;
+    position: relative;
+    top: -10px;
+    padding: 30px 0;
+}
+
+section.cart .cart-box .cart-box-single-none h1{
+    font-size: 18px;
+}
+
+section.cart .cart-box .cart-box-single-none i{
+    font-size: 40px;
+    color: #f0ab47;
+    margin-top: 10px;
+}
+
+/* VALORES */
+
+section.cart .cart-box .line-shop{
+    width: 90%;
+    margin-bottom: 30px;
+    height: 1.8px;
+    background-color: #ccc;
+}
+
+section.cart .cart-box .w100 h5{
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+section.cart .cart-box .w100 h2{
+    color: #f0ab47;
+}
+
+section.cart .cart-box .w20{
+    width: 20%;
+    text-align: center;
+}
+
+section.cart .cart-box .w20 h4{
+    margin-top: 5px;
+}
+
+section.cart .cart-box .cart-box-circle{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    border: 2px solid #f0ab47;
+    color: #212121;
+    font-weight: bold;
+}
+
+section.cart .cart-box .circle-active{
+    background-color: #f0ab47;
+    color: white;
+}
+
+section.cart .cart-box .cart-box-line{
+    width: 13.333%;
+    background-color: #ccc;
+    height: 2px;
+}
+
+/*================================================*/
+/*===================RESPONSIVO===================*/
+/*================================================*/
+
+@media screen and (max-width: 800px){
+    
+    section.cart .cart-box{
+        width: 90%;
+    }
+
+}
+
+@media screen and (max-width: 600px){
+    
+    section.cart .cart-box{
+        overflow: auto;
+        height: 520px;
+    }
+
+    section.cart .cart-box .cart-box-single .w50:nth-child(2){
+        width: 80% !important;
+    }
+
+    section.cart .cart-box .cart-box-single-none{
+        text-align: center;
+        position: relative;
+        top: -10px;
+    }
+    
+    section.cart .cart-box .cart-box-single-none h1{
+        font-size: 18px;
+    }
+    
+    section.cart .cart-box .cart-box-single-none i{
+        font-size: 40px;
+        color: #f0ab47;
+        margin-bottom: 10px;
+    }
+    
+    section.cart .cart-box .quantity-shop{
+        font-size: 20px !important;
+    }
+    
+    section.cart .cart-box .name-shop{
+        font-size: 16px;
+    }
+    
+    section.cart .cart-box .value-shop{
+        font-size: 19px;
+    }
+
+    section.cart .cart-box .w20 h4{
+        font-size: 12px;
+    }
+
+    section.cart .cart-box .w100 h2{
+        font-size: 20px;
+    }
+
+}
