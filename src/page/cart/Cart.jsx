@@ -90,7 +90,9 @@ function Cart({ onHandleItems, cartItems, setCartItems, subtotal, total }) {
     <ScrollRestoration/>
 
     <div className='fail'>
-        <i class="fa-solid fa-circle-exclamation"></i>
+        <div>
+            <i class="fa-solid fa-circle-exclamation center-y"></i>
+        </div>
         <h4>Adicione um pedido para continuar!</h4>
     </div>
 

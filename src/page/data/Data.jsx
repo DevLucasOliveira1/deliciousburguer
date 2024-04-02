@@ -106,7 +106,9 @@ function Data({ onFormSubmit, subtotal, taxaEntrega, deliveryActive, setDelivery
     <>
 
     <div className='invalid'>
-        <i class="fa-solid fa-circle-exclamation"></i>
+        <div>
+            <i class="fa-solid fa-circle-exclamation center-y"></i>
+        </div>
         <h4>Complete os campos obrigatórios para continuar!</h4>
     </div>
     

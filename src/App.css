@@ -5,6 +5,9 @@
     padding: 0 auto;
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    -moz-tap-highlight-color: transparent;
+    tap-highlight-color: transparent;   
 }
 
 html,body{
@@ -191,6 +194,8 @@ html,body{
     margin-top: 40px;
 }
 
+/* CUSTOMIZANDO SCROLL */
+
 ::-webkit-scrollbar              { background-color: #ccc; width: 16px; }
 ::-webkit-scrollbar-button       { height: 0px; }
 ::-webkit-scrollbar-track        { background-color: #ccc; }
@@ -204,4 +209,17 @@ input::-webkit-inner-spin-button {
 
 input[type=number] {
     -moz-appearance: textfield;
+}
+
+/* RESPONSIVO */
+
+@media screen and (max-width: 500px){
+    
+    .success,
+    .invalid,
+    .invalid2,
+    .fail{
+        min-width: 70%;
+    }
+
 }

@@ -120,6 +120,11 @@ section.payment .payment-box .payment-box-line{
         width: 90%;
     }
 
+    section.payment ::-webkit-scrollbar              { background-color: initial; border-radius: initial}
+    section.payment ::-webkit-scrollbar-button       { height: initial; }
+    section.payment ::-webkit-scrollbar-track        { background-color: initial  !important; }
+    section.payment ::-webkit-scrollbar-thumb        { background-color: initial !important;}
+
 }
 
 @media screen and (max-width: 600px){

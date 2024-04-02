@@ -13,6 +13,8 @@ section.data{
 
 section.data .data-box{
     width: 70%;
+    max-height: 800px;
+    overflow: auto;
     padding: 30px 20px 30px 20px;
     background-color: white;
     border-radius: 20px;
@@ -120,6 +122,11 @@ section.data .data-box .data-box-line{
         width: 90%;
     }
 
+    section.data ::-webkit-scrollbar              { background-color: initial; border-radius: initial}
+    section.data ::-webkit-scrollbar-button       { height: initial; }
+    section.data ::-webkit-scrollbar-track        { background-color: initial  !important; }
+    section.data ::-webkit-scrollbar-thumb        { background-color: initial !important;}
+    
 }
 
 @media screen and (max-width: 600px){

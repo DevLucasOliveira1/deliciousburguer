@@ -21,11 +21,6 @@ section.cart .cart-box{
     flex-wrap: wrap;
 }
 
-section.cart ::-webkit-scrollbar              { background-color: #ccc; border-radius: 0 50px 50px 0}
-section.cart ::-webkit-scrollbar-button       { height: 8px !important; }
-section.cart ::-webkit-scrollbar-track        { background-color: #ccc  !important; }
-section.cart ::-webkit-scrollbar-thumb        { background-color: #131415 !important;}
-
 /* ESPAÇO PARA PRODUTOS */
 
 section.cart .cart-box .cart-box-wraper{
@@ -151,6 +146,11 @@ section.cart .cart-box .cart-box-line{
     section.cart .cart-box{
         width: 90%;
     }
+
+    section.cart ::-webkit-scrollbar              { background-color: initial; border-radius: initial}
+    section.cart ::-webkit-scrollbar-button       { height: initial; }
+    section.cart ::-webkit-scrollbar-track        { background-color: initial  !important; }
+    section.cart ::-webkit-scrollbar-thumb        { background-color: initial !important;}
 
 }
 
